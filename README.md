@@ -1,6 +1,6 @@
 # Arya
 
-**Arya** (named after [Aryabhata](https://en.wikipedia.org/wiki/Aryabhata)) is a prompt-driven AI agent that achieved the **highest accuracy ever recorded on the OfficeQA benchmark** — 72.0% success rate — in [Sentient Labs Arena](https://arena.dev) Cohort 0.
+**Arya** (named after [Aryabhata](https://en.wikipedia.org/wiki/Aryabhata)) is a prompt-driven AI agent that achieved the **highest accuracy ever recorded on the OfficeQA benchmark** — 72.0% success rate — in [Sentient Labs Arena](https://www.sentient.xyz/arena) Cohort 0.
 
 Built solo by [Vikranth Reddimasu](https://github.com/vikranthreddimasu).
 
