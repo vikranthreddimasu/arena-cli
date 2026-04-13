@@ -272,9 +272,6 @@ Nine skill files in `skills/` provide reference documentation for different aspe
 | `regression_methods/SKILL.md` | OLS, polynomial regression, exponential smoothing, moving averages, std dev, CV |
 | `table_extraction/SKILL.md` | Parsing pipe-delimited tables: units, row matching, "total" row selection, common pitfalls |
 
-### Why skills weren't used at runtime
-
-The scoring formula penalizes cost heavily. Loading skill files adds tokens (both input for the skill content and output for the agent processing them), which increases cost. The system prompt already encodes the critical knowledge from all skills in a more compact form. The 191.0 peak score was achieved on the system prompt alone.
 
 The skills remain valuable as development documentation and for understanding the problem domain.
 
@@ -487,7 +484,7 @@ A wrong answer scores higher than no answer. Requiring a preliminary answer with
 
 ## About the Competition
 
-[Sentient Labs Arena](https://arena.dev) is a competition platform for evaluating AI coding/analysis agents. Cohort 0 ran in March-April 2026 with the OfficeQA benchmark — a dataset of quantitative questions over U.S. Treasury Bulletin data originally created by [Databricks](https://github.com/databricks/officeqa).
+[Sentient Labs Arena](https://www.sentient.xyz/arena) is a competition platform for evaluating AI coding/analysis agents. Cohort 0 ran in March-April 2026 with the OfficeQA benchmark — a dataset of quantitative questions over U.S. Treasury Bulletin data originally created by [Databricks](https://github.com/databricks/officeqa).
 
 The Arena provides:
 - Pre-built harness agents: OpenCode, Codex, Goose, OpenHands-SDK
@@ -495,7 +492,6 @@ The Arena provides:
 - Server-side evaluation with scoring that balances accuracy, cost, and latency
 - A leaderboard and submission tracking
 
-The CLI source is at [sentient-agi/arena](https://github.com/sentient-agi/arena).
 
 ---
 
